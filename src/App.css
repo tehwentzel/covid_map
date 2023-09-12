@@ -1,0 +1,109 @@
+.component-app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+.backdrop{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    opacity: .8;
+    color: black;
+    z-index: 100;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-left {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-auto {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+.colorLegend{
+    width:100%;
+    height: 100%;
+    margin: 1em;
+}
+
+.controlPanel{
+    margin-top: 2em;
+    width: 100%;
+    height: 100%;
+}
+
+#mapBox{
+    width: 100%;
+    height: 80vh;
+}
+
+#secondaryChart{
+    height: 20vh;
+    width: 100%;
+}
+
+#dateSliderBox{
+    height:10vh;
+}
+
+.body{
+    direction: 'column';
+    width: 100%;
+}
+
+.toolTip{
+
+    position: absolute;
+    margin: 0 auto;
+    background: rgba(200,200,200,.9);
+    opacity: 1;
+    align-items: flex-start;
+    text-align: left;
+    text-justify:left;
+    padding: .5em;
+    font-size: 1em;
+    width: auto;
+    visibility: hidden;
+    max-width: 15em;
+    border: .1em solid black;
+    border-radius: .3em;
+}
+
+.MuiSlider-root > *{
+    height: .5em!important;
+    border-radius: 1em!important;
+    /* width: 90% !important;
+    border-radius: 100px !important; */
+}
+
+.MuiSlider-thumb{
+    margin-top: -.5em!important;
+    height: 1.5em!important;
+    width: 1.5em!important;
+}
+
+.MuiSlider-markLabel{
+    font-weight: bold!important;
+    font-size: 1.25em!important;
+}

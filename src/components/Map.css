@@ -1,0 +1,31 @@
+.map-container{
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.map-svg{
+    height: 100%;
+    width: 100%;
+}
+
+.mapContainer{
+    height:100%;
+    width:100%;
+    position: relative;
+}
+
+.countyGroup .singleCounty{
+    stroke-width: 0auto;
+}
+
+.zoomable{
+    cursor: pointer;
+}
+
+h2{
+    display: float;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
